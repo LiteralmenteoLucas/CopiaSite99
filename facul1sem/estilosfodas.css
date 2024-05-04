@@ -1,0 +1,74 @@
+.navbar-img {
+    width: 85px;
+    margin-left: 2rem;
+}
+.imgcarrocentro {
+    margin: 0 auto;
+    
+}
+
+.banner {
+        background-color: yellow;
+        height: 60vh;
+        display: flex;
+}
+
+.main {
+        margin-top: 5rem; /* Add a top margin to avoid content overlay */
+}
+
+    .container{
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+}
+    .grid{
+       align-items: center;
+        text-align: center; 
+    }
+    /* aqui tem o que supostamente seria */
+
+
+
+
+    
+    /* Estilo do rodapé */
+footer {
+    background-color: #7e984c; /* Cor de fundo do rodapé */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    font-family: 'Arial', sans-serif; /* Tipo de fonte */
+  }
+  
+  footer img {
+    float: left; /* Posiciona a logo à esquerda */
+    width: 100px; /* Largura da logo */
+    height: auto; /* Altura automática */
+    margin-right: 20px; /* Espaço à direita da logo */
+  }
+  
+  footer div {
+    margin-bottom: 20px; /* Espaço abaixo dos elementos */
+  }
+  
+  footer a {
+    display: block; /* Exibe os links em blocos */
+    color: #000; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin-bottom: 10px; /* Espaço abaixo de cada link */
+  }
+  
+  footer p {
+    color: #666; /* Cor do texto do copyright */
+    font-size: 0.8em; /* Tamanho da fonte */
+  }
+  
+  /* Limpa floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+        
+        
