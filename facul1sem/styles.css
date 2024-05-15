@@ -95,6 +95,25 @@ section {
   width: 550px;
 }
 
+
+.inov-section {
+  background: #B4CD1A;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 44px;
+}
+
+.inov-section img{
+  justify-content: right;
+  width: 600px;
+
+}
+
+
+
 footer {
   display: flex;
   padding: 24px;
@@ -183,6 +202,12 @@ footer {
 }
 
 /* css produtos linhas de codigo abaixo */
+
+.fundoprod{
+  background-color: #fdcf2e;
+  padding: 50px;
+  
+}
 
 .h1produtos{
   text-align: center;
@@ -295,3 +320,6 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+/* css produto isolado */
+
